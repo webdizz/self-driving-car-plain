@@ -61,8 +61,6 @@ def main():
         if(n > 1):
             # if at least one iteration, check if turn
             if(observation_n[0] != None):
-                # store the reward in the previous score
-                prev_score = reward_n[0]
                 # should we turn?
                 if(turn):
                     # pick a random event where to turn?
